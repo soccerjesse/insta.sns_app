@@ -1,24 +1,14 @@
-# README
+名前：写真投稿アプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+詳細：
+登録したユーザーが好きな写真を投稿できる
 
-Things you may want to cover:
+投稿されたものにいいね、コメントすることができる
 
-* Ruby version
+gem 一覧
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+gem 'devise'
+gem 'carrierwave'
+gem "mini_magick"
+gem 'pg', group: :production
+gem 'aws-sdk-s3', require: false
